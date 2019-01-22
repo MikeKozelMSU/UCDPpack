@@ -1,0 +1,19 @@
+Package: UCDPack
+Type: Package
+Title: UCDP Package
+Version: 0.1.0
+Author: Mike Kozel
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Loads in UCDP data and produces a summary statistics graph, and map
+License: What license is it under?
+Encoding: UTF-8
+depends: ggplot2,
+        dplyr,
+        tidyr,
+        lubridate,
+        stringr,
+        jsonlite,
+        httr,
+        ggmap,
+        reshape2
+RoxygenNote: 6.1.1
